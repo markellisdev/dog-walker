@@ -8,4 +8,16 @@ class User():
         self.__email = email
         self.__username = username
 
+    def get_first_name(self):
+        return self.__first_name
+
+    def get_last_name(self):
+        return self.__first_name
+
+    def get_email(self):
+        return self.__email
+
+    def get_username(self):
+        return self.__username
+
     def get_dogs(self):

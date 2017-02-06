@@ -1,5 +1,6 @@
 import unittest
-from dogwalking import *
+from dogwalking import User
+from registrar import Registrar
 
 class TestDogWalking(unittest.TestCase):
 
